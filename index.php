@@ -61,9 +61,6 @@ $customerArray = array(
 $shippingQuote = array('method'=>'USPS', 'rate'=>'7.95');
 $quotes = new Shipping($shippingQuote);
 
-//var_dump($quotes);
-
-echo $quotes->getShipRate();
 
 /* item id for testing */
 $itemId = 12;
